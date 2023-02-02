@@ -27,7 +27,7 @@ export default function SkillsPage({}: Props) {
         duration: 1.2,
       }}
       whileInView = {{ opacity: 1, x: 0 }}
-      viewport= {{ once: true }} className='grid grid-cols-4 gap-5 mx-auto'>
+      viewport= {{ once: true }} className='grid sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-5 mx-auto'>
 
         <div className='group relative flex cursor-pointer'>
           <motion.img 
@@ -175,6 +175,23 @@ export default function SkillsPage({}: Props) {
             <div className='flex items-center justify-center h-full'>
               <p className='text-1xl font-bold text-black opacity-100'>
                 Java
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* React */}
+
+        <div className='group relative flex cursor-pointer'>
+          <motion.img 
+          src= "https://img.icons8.com/office/256/react.png"
+          className='rounded-full border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out animate-pulse'
+          />
+
+          <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+              <p className='text-1xl font-bold text-black opacity-100'>
+                React
               </p>
             </div>
           </div>
