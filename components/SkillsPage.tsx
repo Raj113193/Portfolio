@@ -27,7 +27,9 @@ export default function SkillsPage({}: Props) {
         duration: 1.2,
       }}
       whileInView = {{ opacity: 1, x: 0 }}
-      viewport= {{ once: true }} className='grid sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-5 mx-auto'>
+      viewport= {{ once: true }} className='grid grid-cols-4 gap-5 mx-auto'>
+
+        {/* Typescript */}
 
         <div className='group relative flex cursor-pointer'>
           <motion.img 

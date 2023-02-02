@@ -32,7 +32,7 @@ export default function About({}: Props) {
         </picture>
 
 
-      <div className='space-y-10 px-0 md:px-10'>
+      <div className='space-y-10 px-0 pb-0 md:px-10'>
         <motion.h4
             initial={{
               x: 200,
@@ -44,7 +44,7 @@ export default function About({}: Props) {
             
             viewport= {{ once: true }}
 
-            className='text-4xl font-semibold text-orange-300 subpixel-antialiased	color: rgb(253 186 116);'
+            className='md:text-3xl lg:text-4xl font-semibold text-orange-300 subpixel-antialiased	color: rgb(253 186 116);'
             
             >Here&apos;s a little background
         </motion.h4>

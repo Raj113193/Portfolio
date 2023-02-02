@@ -34,7 +34,7 @@ export default function Hero({}: Props) {
           Software Engineer
         </h2>
 
-        <h1 className='text-5xl lg:text-6l md:text-2l sm:text-2l font-medium scroll-px-5'>
+        <h1 className='sm:text-2xl md:text-2xl lg:text-5xl font-medium scroll-px-5'>
           <span className="mr-3">{text}</span>
           <Cursor cursorColor='#F7AB0A' />
         </h1>
