@@ -77,7 +77,7 @@ export default function Header({}: Props) {
       className="flex flex-row items-center text-gray-300 cursor-pointer">
 
         <SocialIcon 
-          url='mailto:CtrlAltBackspaceMeNow@gmail.com' 
+          url='mailto:rajbhartirb0000@gmail.com' 
           className="cursor-pointer transition duration-500 ease-in-out transform hover:scale-110"
           network="email"
           fgColor="grey"

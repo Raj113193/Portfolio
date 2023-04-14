@@ -53,7 +53,7 @@ export default function ContactMe({}: Props) {
               />
             </svg>
             <p className='text-1xl'>
-            CtrlAltBackspaceMeNow@gmail.com
+            RajBhartiRB0000@gmail.com
             </p>
           </div>
           
