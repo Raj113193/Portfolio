@@ -77,7 +77,7 @@ export default function About({}: Props) {
            As a student, I am always eager to learn about new technologies and ways to improve my skills. I have a strong background in programming, with a particular interest in web development and data science. I am a quick learner and adapt easily to new programming languages and tools. My goal is to excel in my field and I am dedicated to achieving it. <br />
           <button
           className='text-sm items-center text-center justify-center font-bold subpixel-antialiased text-orange-300 color: rgb(253 186 116); no-underline hover:underline decoration-dashed underline-offset-4 hover:text-blue-300 transition duration-500 ease-in-out transform hover:scale-110'
-          onClick={() => window.open('https://drive.google.com/file/d/1l4eNF4At3O2rPkKorn4u6aWwhaIrNN3h/view?usp=sharing', '_blank', 'rel=noopener')}>
+          onClick={() => window.open('https://drive.google.com/file/d/17MXFd0g6YubZWNVKAeGdvh5vLgx3Rp2n/view?usp=sharing', '_blank', 'rel=noopener')}>
             [ Download Resume ]
           </button>
         </motion.p>
